@@ -14,8 +14,8 @@
     </engines>
     <platform name="android">
         <preference name="PLAY_SERVICES_VERSION" default="11.0.4"/>
-        <framework src="com.google.android.gms:play-services-base:$PLAY_SERVICES_VERSION" />
-        <framework src="com.google.android.gms:play-services-ads:$PLAY_SERVICES_VERSION" />
+        <framework src="com.google.android.gms:play-services-base:15.0.1" />
+        <framework src="com.google.android.gms:play-services-ads:17.2.1" />
     </platform>
     <platform name="ios">
         <framework src="src/ios/GoogleMobileAds.framework" custom="true" />
